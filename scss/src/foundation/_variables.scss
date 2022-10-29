@@ -70,12 +70,7 @@ $red-light: #f8dedf;
 $blue: #0468db;
 $blue-light: #b4d2f4;
 
-
-
 /*=====  End of Colors  ======*/
-
-
-
 
 /*=============================================
 =            Typography            =
@@ -85,7 +80,7 @@ $blue-light: #b4d2f4;
 
 $playfair: "Playfair", serif; /* 1 */
 
-$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif; /* 2 */
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", sans-serif; /* 2 */
 
 /* font sizes */
 $fs-xs: 0.75rem; // 12px
@@ -128,62 +123,58 @@ $fw-extrabold: 800;
 
 $fw-black: 900;
 
-
 /*=====  End of Typography  ======*/
-
-
-
-
 
 /*=============================================
 =            Breakpoints            =
 =============================================*/
 
 $breakpoints: (
-    md: 48rem, // 768px
+  md: 48rem,
 
-    lg: 64rem, // 1024px
+  // 768px
+  lg: 64rem,
 
-    xl: 80rem, // 1280px
+  // 1024px
+  xl: 80rem,
 
+  // 1280px
 ) !default;
 
-
 /*=====  End of Section Breakpoint  ======*/
-
-
-
 
 /*=============================================
 =                    Spacing                  =
 =============================================*/
 
 $spacing: (
+  xxxs: 0.25rem,
 
-    xxxs: 0.25rem, // 4px
+  // 4px
+  xxs: 0.5rem,
 
-    xxs: 0.5rem, // 8px
+  // 8px
+  xs: 0.75rem,
 
-    xs: 0.75rem, // 12px
+  // 12px
+  sm: 1rem,
 
-    sm: 1rem, // 16px
+  // 16px
+  md: 1.5rem,
 
-    md: 1.5rem, // 24px
+  // 24px
+  lg: 2rem,
 
-    lg: 2rem, // 32px
+  // 32px
+  xl: 3rem,
 
-    xl: 3rem, // 48px
+  // 48px
+  xxl: 4.5rem,
 
-    xxl: 4.5rem, // 72px
+  // 72px
+  xxxl: 6rem,
 
-    xxxl: 6rem, // 96px
-
-
+  // 96px
 ) !default;
 
-
 /*=====  End of Spacing  ======*/
-
-
-
-

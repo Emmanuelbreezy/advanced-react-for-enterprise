@@ -1,16 +1,10 @@
-
-
-
 /*=============================================
 =            Body text sizes           =
 =============================================*/
 
-
 $body-font-size: var(--dse-body-font-size, $fs-sm) !default;
 
 $body-font-weight: var(--dse-body-font-weight, $fs-normal) !default;
-
-
 
 /*=============================================
 =            Heading font sizes            =
@@ -28,8 +22,6 @@ $h5-font-size: var(--dse-h5-font-size, $h-5) !default;
 
 $h6-font-size: var(--dse-h6-font-size, $h-6) !default;
 
-
-
 /*=============================================
 =            Heading font weight           =
 =============================================*/
@@ -45,4 +37,3 @@ $h4-text-weight: var(--dse-h4-text-weight, $fw-medium) !default;
 $h5-text-weight: var(--dse-h5-text-weight, $fw-normal) !default;
 
 $h6-text-weight: var(--dse-h6-text-weight, $fw-light) !default;
-
