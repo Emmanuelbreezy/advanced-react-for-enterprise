@@ -16,7 +16,7 @@
   --dse-form-border-focus-color: #{$green};
 
   --dse-body-font-size: #{$fs-base};
-  --dse-body-font-weight: #{$fs-normal};
+  --dse-body-font-weight: #{$fw-normal};
 
   --dse-h1-font-size: #{$h-1};
   --dse-h2-font-size: #{$h-2};
@@ -25,10 +25,10 @@
   --dse-h5-font-size: #{$h-5};
   --dse-h6-font-size: #{$h-6};
 
-  --dse-h1-font-weight: #{$fs-medium};
-  --dse-h2-font-weight: #{$fs-medium};
-  --dse-h3-font-weight: #{$fs-medium};
-  --dse-h4-font-weight: #{$fs-normal};
-  --dse-h5-font-weight: #{$fs-normal};
-  --dse-h6-font-weight: #{$fs-light};
+  --dse-h1-font-weight: #{$fw-medium};
+  --dse-h2-font-weight: #{$fw-medium};
+  --dse-h3-font-weight: #{$fw-medium};
+  --dse-h4-font-weight: #{$fw-normal};
+  --dse-h5-font-weight: #{$fw-normal};
+  --dse-h6-font-weight: #{$fw-light};
 }
