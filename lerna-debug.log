@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'init' ],
+0 silly argv   lernaVersion: '6.0.1',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v6.0.1
+2 verbose rootPath D:\SOFTWARE-COURSE\CLASS PRACTICE FOR ADVANCED REACT
+3 verbose init skipping validations
+4 verbose init skipping preparations
+5 info Updating package.json
+6 info Updating lerna.json
+7 info Creating packages directory
+8 error TypeError: this.packageConfigs.map is not a function
+8 error     at Project.get packageParentDirs [as packageParentDirs] (D:\SOFTWARE-COURSE\CLASS PRACTICE FOR ADVANCED REACT\node_modules\@lerna\project\index.js:170:32)
+8 error     at InitCommand.ensurePackagesDir (D:\SOFTWARE-COURSE\CLASS PRACTICE FOR ADVANCED REACT\node_modules\@lerna\init\index.js:180:30)
