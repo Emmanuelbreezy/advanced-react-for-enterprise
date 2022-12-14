@@ -7,7 +7,7 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "playgrounds/"
+      "playgrounds/react"
     ],
     "nohoist": [
       "**/normalize-scss"
@@ -19,7 +19,8 @@
   },
 
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   },
   "devDependencies": {
     "lerna": "^6.0.1"

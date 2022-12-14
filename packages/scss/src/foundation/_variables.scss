@@ -83,8 +83,20 @@ $playfair: "Playfair", serif; /* 1 */
 $raleway: "Raleway", "HelveticaNeue", "Helvetica", sans-serif; /* 2 */
 
 /* font sizes */
-$fs-xs: 0.75rem; // 12px
+$fs: (
+  xs: 0.75rem, // 12px
+  
+  sm: 0.875rem, // 14px
+  
+  base: 1rem, // 16px
+  
+  lg: 1.125rem, // 18px
+  
+  xl: 1.5rem, // 24px
+);
 
+$fs-xs: 0.75rem; // 12px
+  
 $fs-sm: 0.875rem; // 14px
 
 $fs-base: 1rem; // 16px
@@ -148,6 +160,8 @@ $breakpoints: (
 =============================================*/
 
 $spacing: (
+  none: 0rem,
+  
   xxxs: 0.25rem,
 
   // 4px
@@ -177,4 +191,7 @@ $spacing: (
   // 96px
 ) !default;
 
+$shadows: (
+  base: 0px 4px 11px rgba(157, 157, 157, 0.21),
+)
 /*=====  End of Spacing  ======*/

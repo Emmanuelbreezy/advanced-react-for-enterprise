@@ -88,6 +88,9 @@
 =            Body text sizes           =
 =============================================*/
 /*=============================================
+=            Body Font Family            =
+=============================================*/
+/*=============================================
 =            Heading font sizes            =
 =============================================*/
 /*=============================================
@@ -566,6 +569,7 @@ template {
 :root {
   --dse-body-text-color: #1d1f22;
   --dse-body-bg-color: #fff;
+  --dse-body-font-family: Playfair, serif;
   --dse-btn-primary-color: #fff;
   --dse-btn-primary-bg: #5ece7b;
   --dse-btn-primary-bg-hover: #9ee2b0;

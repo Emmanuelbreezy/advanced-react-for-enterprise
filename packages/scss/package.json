@@ -10,17 +10,18 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "stylelint": "^14.14.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
   },
-  
   "scripts": {
     "lint": "stylelint (src/**/*.scss)",
     "lint:fix": "stylelint --fix (src/**/*.scss)",
-    "build": "node src/scripts/build.js"
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "husky": {
     "hooks": {

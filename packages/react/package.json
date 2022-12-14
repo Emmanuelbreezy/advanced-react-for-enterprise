@@ -13,6 +13,7 @@
   },
 
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "yarn build --watch"
   }
 }
