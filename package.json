@@ -20,7 +20,8 @@
 
   "scripts": {
     "build": "yarn lerna run build",
-    "dev": "yarn lerna run dev"
+    "dev": "yarn lerna run dev",
+    "test": "yarn lerna run test"
   },
   "devDependencies": {
     "lerna": "^6.0.1"
